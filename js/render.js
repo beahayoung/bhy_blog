@@ -628,7 +628,7 @@ async function initialize() {
     */
   if (!url.search.split("=")[1] || url.search.split("=")[1] === "blog.md") {
     // 메뉴 로딩
-    await initDataBlogMenu();
+    // await initDataBlogMenu();
     // renderMenu();
 
     // 블로그 리스트 로딩
