@@ -628,8 +628,8 @@ async function initialize() {
     */
   if (!url.search.split("=")[1] || url.search.split("=")[1] === "blog.md") {
     // 메뉴 로딩
-    // await initDataBlogMenu();
-    // renderMenu();
+    await initDataBlogMenu();
+    renderMenu();
 
     // 블로그 리스트 로딩
     await initDataBlogList();
@@ -639,8 +639,8 @@ async function initialize() {
     renderBlogCategory();
   } else {
     // 메뉴 로딩
-    // await initDataBlogMenu();
-    // renderMenu();
+    await initDataBlogMenu();
+    renderMenu();
 
     // 블로그 상세 정보 로딩
     if (url.search.split("=")[0] === "?menu") {
